@@ -1,0 +1,14 @@
+{
+    "name": "bldg-mask.mbtiles",
+    "description": "bldg-mask.mbtiles",
+    "version": "2",
+    "minzoom": "12",
+    "maxzoom": "12",
+    "center": "-0.043945,51.481375,12",
+    "bounds": "-20.000000,45.000000,10.000000,65.000000",
+    "type": "overlay",
+    "format": "pbf",
+    "generator": "tippecanoe v1.36.0",
+    "generator_options": "tippecanoe '--minimum-zoom=12' '--maximum-zoom=12' -o bldg-mask.mbtiles os-buildings-mask.geojson",
+    "json": "{\"vector_layers\": [ { \"id\": \"osbuildingsmask\", \"description\": \"\", \"minzoom\": 12, \"maxzoom\": 12, \"fields\": {} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"osbuildingsmask\",\"count\": 1,\"geometry\": \"Polygon\",\"attributeCount\": 0,\"attributes\": []}]}}"
+}
